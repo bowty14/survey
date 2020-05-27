@@ -8,8 +8,12 @@
   </ul>
 <% end %>
 
-<%= form_for @survey do |f| %>
-  <%= f.label :topic %>
-  <%= f.text_field :topic %>
-  <%= f.submit %>
+<%= form_for @survey, :html => {:class => "form-control"} do |f| %>
+  <div class="form-group">
+    <%= f.label :topic %>
+      <div class="col-md-1">
+        <%= f.text_field :topic, class: "form-control" %>
+        <%= f.submit "Submit", class: "btn btn-danger" %>
+      </div>
+  </div>
 <% end %>
