@@ -1,24 +1,17 @@
-# README
+# Project name survey
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### By **Tyler Bowerman**
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+*A ruby project for Epicodus*
 
-* System dependencies
+**Setup/Installation Requirements
+clone the respository to your local machine
+navigate to the cloned directory and open in your text editor of choice to view code**
 
-* Configuration
+### License
 
-* Database creation
+*This software is licensed under the MIT license* 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Copyright (c) 2020 **Tyler Bowerman**
